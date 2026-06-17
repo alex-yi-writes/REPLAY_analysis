@@ -9,13 +9,13 @@ log_dir="/Users/yyi/Desktop/REPLAY/logs"
 
 mkdir -p "${log_dir}"
 
-# --- Subject list: 102 to xxx -------------------------------
+# subject list: 102 to 152 
 subject_ids=()
-for i in $(seq 147); do
+for i in $(seq 152); do
     subject_ids+=("${i}")
 done
 
-# --- Conversion loop ----------------------------------------
+# now convert
 for subject in "${subject_ids[@]}"; do
 
     echo "·̩̩̥͙＊*•̩̩͙✩•̩̩͙*˚　　˚*•̩̩͙✩•̩̩͙*˚＊·̩̩̥͙"

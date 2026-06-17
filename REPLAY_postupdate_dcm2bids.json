@@ -1,0 +1,103 @@
+{
+  "search_method": "fnmatch",
+
+    "descriptions": [
+    {
+      "id": "T1w_07mm",
+      "datatype": "anat",
+      "suffix": "T1w",
+      "entities": {
+        "acquisition": "07mm"
+      },
+      "criteria": {
+        "SeriesDescription": "*mprage_sag_*DIS3D"
+      }
+    },
+    {
+      "id": "T1w_07mm",
+      "datatype": "anat",
+      "suffix": "T1w",
+      "entities": {
+        "acquisition": "07mm"
+      },
+      "criteria": {
+        "SeriesDescription": "t1_mprage-foci-irns_sag_0.7iso"
+      }
+    },
+    {
+      "id": "T2w_hippo",
+      "datatype": "anat",
+      "suffix": "T2w",
+      "entities": {
+        "acquisition": "hiResHippo"
+      },
+      "criteria": {
+        "SeriesDescription": "tse_*T2*perphippo*0"
+      }
+    },
+    {
+      "id": "bold_run1",
+      "datatype": "func",
+      "suffix": "bold",
+      "entities": {
+        "task": "replay",
+        "run": "1"
+      },
+      "criteria": {
+        "SeriesDescription": "MoCoSeries_DiCo",
+        "ProtocolName": "*run*1*MoCo*"
+      },
+      "sidecar_changes": {
+        "TaskName": "replay"
+      }
+    },
+    {
+      "id": "bold_run2",
+      "datatype": "func",
+      "suffix": "bold",
+      "entities": {
+        "task": "replay",
+        "run": "2"
+      },
+      "criteria": {
+        "SeriesDescription": "MoCoSeries_DiCo",
+        "ProtocolName": "*run*2*MoCo*"
+      },
+      "sidecar_changes": {
+        "TaskName": "replay"
+      }
+    },
+    {
+      "id": "bold_run3",
+      "datatype": "func",
+      "suffix": "bold",
+      "entities": {
+        "task": "replay",
+        "run": "3"
+      },
+      "criteria": {
+        "SeriesDescription": "MoCoSeries_DiCo",
+        "ProtocolName": "*run*3*MoCo*"
+      },
+      "sidecar_changes": {
+        "TaskName": "replay"
+      }
+    },
+    {
+      "id": "bold_run4",
+      "datatype": "func",
+      "suffix": "bold",
+      "entities": {
+        "task": "replay",
+        "run": "4"
+      },
+      "criteria": {
+        "SeriesDescription": "MoCoSeries_DiCo",
+        "ProtocolName": "*run*4*MoCo*"
+      },
+      "sidecar_changes": {
+        "TaskName": "replay"
+      }
+    }
+  ]
+}
